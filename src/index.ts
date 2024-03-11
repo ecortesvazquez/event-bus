@@ -1,8 +1,8 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import { InMemoryEventBus } from "@/shared/infrastructure/eventBus/InMemoryEventBus";
-import { CreateUserUseCase } from "./users/application/createUser/CreateUser.useCase";
-import { CreateDocumnentOnUserCreated } from "./documents/application/createDocument/CreateDocumentOnUserCreated";
+import { CreateUserUseCase } from "@/users/application/createUser/CreateUser.useCase";
+import { CreateDocumnentOnUserCreated } from "@/documents/application/createDocument/CreateDocumentOnUserCreated";
 
 dotenv.config();
 

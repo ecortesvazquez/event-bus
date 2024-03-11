@@ -1,10 +1,9 @@
 import type { EventBus } from "@/shared/domain/event/EventBus";
-// import { User } from "../../domain/User";
 import { User } from "@/users/domain/User";
-import { UserId } from "../../domain/valueObjects/UserId";
-import { UserName } from "../../domain/valueObjects/UserName";
-import { UserEmail } from "../../domain/valueObjects/UserEmail";
-import { UserStatus } from "../../domain/valueObjects/UserStatus";
+import { UserId } from "@/users/domain/valueObjects/UserId";
+import { UserName } from "@/users/domain/valueObjects/UserName";
+import { UserEmail } from "@/users/domain/valueObjects/UserEmail";
+import { UserStatus } from "@/users/domain/valueObjects/UserStatus";
 
 export class CreateUserUseCase {
   constructor(private readonly eventBus: EventBus) {}

@@ -1,4 +1,4 @@
-import { AggregateRoot } from "../../shared/domain/AggregateRoot";
+import { AggregateRoot } from "@/shared/domain/AggregateRoot";
 import { UserCreatedDomainEvent } from "./domainEvents/UserCreatedDomainEvent";
 import type { UserId } from "./valueObjects/UserId";
 import type { UserName } from "./valueObjects/UserName";
